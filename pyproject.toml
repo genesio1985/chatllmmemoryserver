@@ -1,0 +1,5 @@
+[project]
+name = "chatllmmemoryserver"
+version = "0.1.0"
+description = "Chat LLM Memory Server"
+requires-python = ">=3.12"

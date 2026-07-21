@@ -12,3 +12,13 @@ Swagger:
 
 Health:
 - http://localhost:8000/api/v1/health
+
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+
+executar: uvicorn app.main:app --reload
